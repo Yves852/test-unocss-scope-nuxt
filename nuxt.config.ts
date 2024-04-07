@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
   ],
+  unocss: {
+    mode: 'vue-scoped',
+  }
 })
